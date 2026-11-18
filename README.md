@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# TalentBridge AI – AI-Powered Recruitment Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About the Project
 
-## Available Scripts
+TalentBridge AI is an AI-powered web-based recruitment platform that connects candidates and recruiters in one place. Candidates can create profiles, upload resumes, search for jobs, apply for jobs, and track their application status.
 
-In the project directory, you can run:
+Recruiters can post job openings, view candidate applications, shortlist or reject candidates, and schedule interviews. The system also provides AI-based resume analysis and job recommendations.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Candidate Module
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Candidate Registration and Login
+- Profile Management
+- Resume Upload
+- Job Search and Exploration
+- Apply for Jobs
+- Track Application Status
+- View Interview Details
+- AI-Based Resume Analysis
+- Job Recommendations
 
-### `npm test`
+### Recruiter Module
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Recruiter Login
+- Post and Manage Jobs
+- View Candidate Applications
+- View Candidate Details
+- Shortlist or Reject Candidates
+- Schedule Interviews
+- Manage Interview Details
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React.js
+- Python Flask
+- MySQL
+- Python
+- JavaScript
+- Axios
+- PyMySQL
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Database Tables
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- users
+- candidates
+- jobs
+- applications
+- interview\_schedule
 
-### `npm run eject`
+## Project Workflow
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Candidates and recruiters register and log in.
+2. Candidates create profiles and upload resumes.
+3. Recruiters post job opportunities.
+4. Candidates search and apply for suitable jobs.
+5. Recruiters review applications and update application status.
+6. Recruiters schedule interviews for shortlisted candidates.
+7. Candidates view their application status and interview details.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Advantages
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Easy job searching and applying.
+- Saves time for candidates and recruiters.
+- AI-based resume analysis.
+- Easy application tracking.
+- Simple interview scheduling.
+- Centralized recruitment platform.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Future Enhancements
 
-## Learn More
+- Develop a mobile application.
+- Improve AI-based resume analysis.
+- Provide better job recommendations.
+- Add email and SMS notifications.
+- Support multiple languages.
+- Improve dashboard reports and analytics.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Conclusion
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+TalentBridge AI makes the recruitment process simple and organized. It helps candidates find suitable job opportunities and allows recruiters to manage applications and interviews efficiently.
 
-### Code Splitting
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Susmitha Kumma**
